@@ -1,3 +1,7 @@
+# Wetter App in allen sprachen
+
+
+----
 ### Python
 ```bash
 cd python && py wetter.py && cd ..
@@ -146,16 +150,6 @@ bash wetter.sh
 cd ..
 ```
 
-### Powershell
-```bash
-cd powershell && powershell wetter.ps1 && cd ..
-```
-```bash
-cd powershell
-powershell wetter.ps1
-cd ..
-```
-
 ### Dart
 ```bash
 cd dart && dart wetter.dart && cd ..
@@ -177,17 +171,139 @@ java -jar wetter.jar
 cd ..
 ```
 
-
-
-
-
-
-----
-----
-----
-
-### Go
+### Swift
 ```bash
+cd swift && swift wetter.swift && cd ..
 ```
 ```bash
+cd swift
+swift wetter.swift
+cd ..
+```
+
+### Lua
+```bash
+cd lua && lua wetter.lua && cd ..
+```
+```bash
+cd lua
+lua wetter.lua
+cd ..
+```
+
+### R
+```bash
+cd r && Rscript wetter.r && cd ..
+```
+```bash
+cd r
+Rscript wetter.r
+cd ..
+```
+
+### Julia
+```bash
+cd julia && julia wetter.jl && cd ..
+```
+```bash
+cd julia
+julia wetter.jl
+cd ..
+```
+
+### Erlang
+```bash
+cd erlang && erlc wetter.erl && erl -noshell -s wetter start -s init stop && cd ..
+```
+```bash
+cd erlang   
+erlc wetter.erl
+erl -noshell -s wetter start -s init stop
+cd ..
+```
+
+### Elixir
+```bash
+cd elixir && elixir wetter.exs && cd ..
+```
+```bash
+cd elixir
+elixir wetter.exs
+cd ..
+```
+
+### Haskell
+```bash
+cd haskell && ghc wetter.hs && ./wetter && cd ..
+```
+```bash
+cd haskell
+ghc wetter.hs
+./wetter
+cd ..
+```
+
+### OCaml
+```bash
+cd ocaml && ocamlc -o wetter wetter.ml && ./wetter && cd ..
+```
+```bash
+cd ocaml
+ocamlc -o wetter wetter.ml
+./wetter
+cd ..
+```
+### Pascal
+```bash
+cd pascal && fpc wetter.pas && ./wetter && cd ..
+```
+```bash
+cd pascal
+fpc wetter.pas
+./wetter
+cd ..
+```
+
+### Prolog
+```bash
+cd prolog && swipl -s wetter.pl -g main -t halt && cd ..
+```
+```bash
+cd prolog
+swipl -s wetter.pl -g main -t halt
+cd ..
+```
+
+### Cobol
+```bash
+cd cobol && cobc -x -o wetter wetter.cbl && ./wetter && cd ..
+```
+```bash
+cd cobol
+cobc -x -o wetter wetter.cbl
+./wetter
+cd ..
+```
+
+### Fortran
+```bash
+cd fortran && gfortran wetter.f90 -o wetter && ./wetter && cd ..
+```
+```bash
+cd fortran
+gfortran wetter.f90 -o wetter
+./wetter
+cd ..
+```
+
+### Assembly
+```bash
+cd assembly && nasm -f elf64 wetter.asm && ld wetter.o -o wetter && ./wetter && cd ..
+```
+```bash
+cd assembly
+nasm -f elf64 wetter.asm
+ld wetter.o -o wetter
+./wetter
+cd ..
 ```
